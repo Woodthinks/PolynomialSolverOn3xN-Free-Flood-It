@@ -1,4 +1,4 @@
-# Free-Flood-It on three-colored 3 × n boards
+# Free-Flood-It on three-colored 3 * n boards
 
 **All code in this repository was generated entirely by AI**, including the original solver, the package interface, command-line tools, and tests. A human directed the research and requested this release. This statement describes code authorship; it does not certify the underlying mathematical claims.
 
@@ -19,6 +19,8 @@ Python 3.10 or later is required. There are no runtime dependencies outside the 
 ```sh
 python -m floodit3 --rows 0001 2010 0101
 ```
+
+This command runs on the $3\times n$ boards 0001, 2010, and 0101.
 
 The command writes JSON. For this example, the relevant fields are:
 
