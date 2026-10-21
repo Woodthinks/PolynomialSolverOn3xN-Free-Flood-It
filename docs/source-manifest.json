@@ -1,0 +1,32 @@
+[
+  {
+    "source": "paper_free_flood_it_3xn/code/solver/polynomial_solver.py",
+    "sha256": "fdf8e449fe0afb9e50c1aba99f5d0c6406d05aa4db03a6dfd366428f6e9dcad3",
+    "destination": "floodit3/polynomial_solver.py"
+  },
+  {
+    "source": "paper_free_flood_it_3xn/code/solver/polynomial_templates.py",
+    "sha256": "8dd80e2a1cb0d401ba15a24e347ba7519f2c97ef85baac3ed68cd2e5b4b8e14a",
+    "destination": "floodit3/polynomial_templates.py"
+  },
+  {
+    "source": "paper_free_flood_it_3xn/code/solver/frontier.py",
+    "sha256": "1d89ddd1199d15e0a1f1b7a264a26a0f428b816fb67dc853d9d965c0c463c655",
+    "destination": "floodit3/frontier.py"
+  },
+  {
+    "source": "paper_free_flood_it_3xn/code/solver/weighted_pushdown.py",
+    "sha256": "82ca256081c3532936c7e55a7091b32e607f9ddfa7994082f1d9ff09a4cde0fa",
+    "destination": "floodit3/weighted_pushdown.py"
+  },
+  {
+    "source": "paper_free_flood_it_3xn/code/solver/recover_strategy.py",
+    "sha256": "2fc255d44db2068447067b96172d3ca81b1120faf8e139cc63dac04d8c4cf7fe",
+    "destination": "floodit3/recover_strategy.py"
+  },
+  {
+    "source": "paper_free_flood_it_3xn/code/solver/exact.py",
+    "sha256": "8db777e80646b74a435a67d359890f29bffab5cdb827dc155003d1f4b0a66776",
+    "destination": "floodit3/exact.py"
+  }
+]

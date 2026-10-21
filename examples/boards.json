@@ -1,0 +1,6 @@
+[
+  {"rows": ["000", "000", "000"], "expected_moves": 0},
+  {"rows": ["010", "010", "010"], "expected_moves": 1},
+  {"rows": ["012", "120", "201"], "expected_moves": 4},
+  {"rows": ["0001", "2010", "0101"], "expected_moves": 3}
+]

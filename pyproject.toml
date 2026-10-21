@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "free-flood-it-3xn"
+version = "0.1.0"
+description = "Research solver for three-color Free-Flood-It on complete 3 x n boards"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+floodit3 = "floodit3.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["floodit3*"]

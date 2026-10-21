@@ -1,0 +1,25 @@
+{
+  "python": "3.12.14",
+  "suite": "stdlib unittest; tests/test_solver.py",
+  "tests_run": 12,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "successful": true,
+  "elapsed_seconds": 0.916,
+  "optimality_checks": {
+    "three_by_two": "All 122 color-canonical boards over at most three colors",
+    "three_by_three": "16 deterministic samples, including 12 generated with seed 94053",
+    "three_by_four": "0001 / 2010 / 0101; independent Free optimum 3 and minimum over all 12 Fixed roots 4",
+    "method": "Independent BFS over all legal maximal-component recolorings, modulo color permutation"
+  },
+  "additional_checks": [
+    "Public recovered strategies replay to monochromatic boards",
+    "Pruning-disabled run and three palette permutations",
+    "Painting-cap limited miss and exact-cap success",
+    "Malformed board, cap, and replay-move rejection",
+    "JSON CLI success, output-file parity, invalid input, and cap miss",
+    "Weighted pushdown zero-cost productive and nonproductive cycles"
+  ],
+  "limitations": "Finite small-board regression only; this report is not a proof of general optimality or the claimed asymptotic complexity."
+}
